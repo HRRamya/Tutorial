@@ -1,0 +1,44 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- <flow xmlns="http://www.springframework.org/schema/webflow" -->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" -->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/webflow -->
+<!--                           http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd"> -->
+                          
+<!--      <var name="shippingaddress" class="com.niit.sweetcake.model.Shipping"/>  -->
+<!--       <var name="orders" class="com.niit.sweetcake.model.Orders"/> -->
+                            
+ 	<!-- Executed when webFlow is triggered -->
+<!-- 	<on-start> -->
+<!-- 	  <evaluate expression="orderWebFlow.initFlow()" result="flowScope.orders"/> -->
+<!-- 	</on-start> -->
+ 
+	 <!-- if not specified the first view state is the starting state -->
+<!-- 	<view-state id="flowExecutor" view="/WEB-INF/views/shippingaddress.jsp" model="flowScope.orders"> -->
+<!-- 	   <transition on="submitShippingAddress" to="shippingaddress"/> -->
+<!-- 	</view-state> -->
+ 
+<!-- 	<action-state id="index"> -->
+<!-- 		<evaluate expression="OrderWebFlow.addShippingAddress(flowScope.orders,shippingaddress)"></evaluate> -->
+<!-- 		<transition on="success" to="shippingaddress" /> -->
+<!-- 	</action-state> -->
+	
+<!-- 	<view-state id="shippingaddress" view="billingaddress" model="billingaddress"> -->
+<!-- 	   <transition on="backToShippingAddress" to="cart_checkout"/> -->
+<!-- 	</view-state> -->
+ 
+	
+<!--     <end-state id="toHome" view="externalRedirect:contextRelative:/" /> -->
+ 
+<!-- 	<view-state id="confirmDetails" view="confirmDetails" model="flowScope.userBean"> -->
+<!-- 		<transition on="edit" to="start" /> -->
+<!-- 		<transition on="submit" to="welcome" /> -->
+<!-- 	</view-state> -->
+ 
+<!-- 	<end-state id="welcome" view="welcome" /> -->
+<!-- 	<end-state id="toException" view="externalRedirect:contextRelative:exception.jsp" /> -->
+ 
+	<!-- these events are available in every state -->
+<!-- 	<global-transitions> -->
+<!-- 		<transition on="cancel" to="shippingaddress" /> -->
+<!-- 	</global-transitions> -->
+<!-- </flow> -->
